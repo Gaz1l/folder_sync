@@ -24,7 +24,7 @@ It performs **one-way synchronization**, meaning changes in the `source` will be
 
 ### 📌 **2. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/folder_sync.git
+git clone https://github.com/Gaz1l/folder_sync.git
 cd folder_sync
 ```
 ### 📌3. Run the Program
