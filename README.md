@@ -34,9 +34,9 @@ python folder_sync.py --source "/path/to/source" --replica "/path/to/replica" --
 --- 
 
 ## 📝 Notes
--Do not modify the replica folder manually. Any changes will be overwritten during the next sync.<br>
--The program only removes files/directories from replica if they no longer exist in source.<br>
--If replica or log file does not exist, the program will create them automatically.<br>
+- Do not modify the replica folder manually. Any changes will be overwritten during the next sync.<br>
+- The program only removes files/directories from replica if they no longer exist in source.<br>
+- If replica or log file does not exist, the program will create them automatically.<br>
 
 ## 👨‍💻 Author
 Abel Gazil<br>
