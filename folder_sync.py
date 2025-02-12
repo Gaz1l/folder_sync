@@ -33,7 +33,6 @@ def validate_path(value, path_data):
                 print(f"Replica folder '{value}' did not exist. It has been created.")
             except Exception as e:
                 raise argparse.ArgumentTypeError(f"Failed to create replica folder '{value}': {e}")
-            
         elif path_data == "log" and not os.path.exists(value):
             # Create an empty log file
             try:
@@ -126,7 +125,6 @@ def file_needs_update(source_file, replica_file, log_file):
         log_operation(f"Error comparing files '{source_file}' and '{replica_file}: {e}", log_file)
         return True
 
-    
 def sync_files(source_path, replica_path, source_files, replica_files, log_file):
     """
     Synchronizes files between source and replica.
